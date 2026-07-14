@@ -3,5 +3,3 @@
 function generateShape(integer) {
   return ("+".repeat(integer) + "\n").repeat(integer).slice(0, -1);
 }
-
-console.log(generateShape(8));
